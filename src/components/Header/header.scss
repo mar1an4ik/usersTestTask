@@ -1,0 +1,23 @@
+.navbar-ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    width: 300px;
+}
+
+.navbar-nav {
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+}
+
+.nav-time:hover,.nav-marked:hover {
+    background: none !important;
+    cursor: default;
+}

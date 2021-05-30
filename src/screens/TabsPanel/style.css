@@ -1,0 +1,27 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px 0;
+    padding: 0;
+    border-top: 1px grey solid;
+    list-style: none;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+.nav-item {
+    margin: 10px 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.nav-item:hover {
+    background-color: rgba(224, 224, 224, 0.4);
+}
+
+.active-tab {
+    background-color: rgba(207, 229, 255, 0.4) !important;
+    color: #527AAA;
+}

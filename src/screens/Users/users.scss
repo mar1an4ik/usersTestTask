@@ -1,0 +1,31 @@
+.posts-page {
+  .card {
+    width: 200px;
+    margin: 0 30px;
+    cursor: pointer;
+  }
+
+  .card:hover {
+    background-color: aliceblue;
+  }
+
+  .card-buttons {
+    text-align: center;
+  }
+
+  .card-body {
+    text-align: center;
+  }
+
+  .btn-load-more {
+    text-align: center;
+  }
+
+  .no-filtered {
+    margin-left: 30px;
+  }
+
+  .card-id {
+    font-size: 10px;
+  }
+}
